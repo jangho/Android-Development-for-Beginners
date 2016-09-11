@@ -9,12 +9,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="io.github.jangho.udacity.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#2196F3"
-        android:textColor="#3F51B5"
-        android:text="Excited for the gift you'll surprise me with."
-        android:textAppearance="?android:textAppearanceLarge"
-        android:textSize="45sp" />
+    <ImageView
+        android:layout_width="1000dp"
+        android:layout_height="1000dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cake_1x" />
+
 </RelativeLayout>
